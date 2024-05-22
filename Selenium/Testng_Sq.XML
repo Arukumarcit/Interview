@@ -1,0 +1,10 @@
+<suite name="TestLeafapps">
+	
+ <test thread-count="2" parallel="classes" name="createlead" verbose="10">
+	<classes>	
+		<class name='week5.day1.CreateLead'></class>
+		<class name='week5.day1.DeleteLead'></class>
+	</classes>
+ </test>
+	
+</suite>

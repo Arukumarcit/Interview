@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Leaf]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="crmsfa"/>
+  <parameter name="url" value="http://leaftaps.com/opentaps/"/>
+  <parameter name="username" value="DemoSalesManager"/>
+  <listeners>
+    <listener class-name="Week6.day1.RetryFailedAnnotation"/>
+  </listeners>
+  <test thread-count="5" name="Create LEad(failed)">
+    <classes>
+      <class name="Week6.day1.CreateLead">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="runCreateLead" invocation-numbers="0 0"/>
+        </methods>
+      </class> <!-- Week6.day1.CreateLead -->
+    </classes>
+  </test> <!-- Create LEad(failed) -->
+</suite> <!-- Failed suite [Leaf] -->

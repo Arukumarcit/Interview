@@ -1,0 +1,21 @@
+<suite name="testleafGroup">
+	
+	<test name="leads" verbose="10">
+		
+	<groups>
+		<run>
+			<include name="smoke"/>
+			
+		</run>
+		
+	</groups>	
+	<classes>
+		<class name="week5.day1.TestNgGroup"/>
+		
+	</classes>
+		
+		
+		
+	</test>
+	
+</suite>
