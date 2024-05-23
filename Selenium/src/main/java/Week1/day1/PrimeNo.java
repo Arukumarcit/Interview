@@ -20,7 +20,10 @@ public class PrimeNo {
 			System.out.println(" Prime Number"+n);
 		}
 
+
+
 System.out.println("Venkat");
+
 		
 	int p=15;
 
