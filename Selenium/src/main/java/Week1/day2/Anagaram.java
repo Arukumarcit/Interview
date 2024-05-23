@@ -28,6 +28,7 @@ public class Anagaram {
 		}
   if(cond==true) {
 	  System.out.println("Anagaram");
+	  System.out.println("Anagaram");
   }
 	}
 
