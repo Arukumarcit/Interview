@@ -20,7 +20,8 @@ public class PrimeNo {
 			System.out.println(" Prime Number"+n);
 		}
 
-
+		System.out.println("Arun");
+		
 	int p=15;
 
 
