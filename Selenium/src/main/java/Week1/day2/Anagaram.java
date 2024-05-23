@@ -28,8 +28,12 @@ public class Anagaram {
 		}
   if(cond==true) {
 	  System.out.println("Anagaram");
+<<<<<<< HEAD
 	  System.out.println("Anagaram");
 	  System.out.println("Anagaram");
+=======
+
+>>>>>>> branch 'main' of https://github.com/Arukumarcit/Interview.git
   }
 	}
 
